@@ -1,26 +1,18 @@
 package com.meituan.model;
 
-
 /**
  * @author n3verl4nd
  */
+
 public class Person {
-    private int age;
     private String name;
+    private int age;
 
     public Person() {
     }
 
-    public Person(int age, String name) {
-        this.age = age;
+    public Person(String name, int age) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
         this.age = age;
     }
 
@@ -32,11 +24,19 @@ public class Person {
         this.name = name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
+                ", age=" + age +
                 '}';
     }
 }

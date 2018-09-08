@@ -20,4 +20,5 @@ dependencies {
     providedCompile group: 'javax.servlet.jsp', name: 'jsp-api', version: '2.2'
     compile group: 'org.springframework', name: 'spring-webmvc', version: '5.0.8.RELEASE'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.6'
+    testCompile group: 'org.springframework', name: 'spring-test', version: '5.0.8.RELEASE'
 }
