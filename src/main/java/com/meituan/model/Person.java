@@ -1,4 +1,4 @@
-package com.meituan.entity;
+package com.meituan.model;
 
 
 /**
