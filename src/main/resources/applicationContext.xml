@@ -8,9 +8,4 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
-    <bean id="person" class="com.meituan.model.Person">
-        <property name="name" value="N3verL4nd"/>
-        <property name="age" value="26"/>
-    </bean>
-
 </beans>
